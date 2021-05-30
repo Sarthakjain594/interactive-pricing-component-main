@@ -23,18 +23,36 @@
   </head>
   <body>
     <div class="container">
+      <img src="images\pattern-circles.svg" alt="" id="bgcircle" />
       <h2 class="mainhead">Simple, traffic-based pricing</h2>
-      <p>Sign-up for our 30-day trial.</p>
-      <p>No credit card required.</p>
+      <div class="p">
+        <p>Sign-up for our 30-day trial.</p>
+        <p>No credit card required.</p>
+      </div>
       <div id="box1">
         <span id="pageviews">100k Pageviews</span>
-        $ /month Monthly Billing Yearly Billing 25% discount
+       <div class="sliderbg">
+        <img src="images\icon-slider.svg" alt="" id="slidericon" />
+       </div>
+        <div class="rate">
+          <h1>$</h1>
+          <span class="month">/month</span>
+        </div>
+       <div class="tenure">
+       <span> Monthly Billing</span>  
+       <span>Yearly Billing</span> 
+       <button id="discountbtn">25% <span id="discount-btn-span">discount</span></button>
+       </div>
       </div>
       <div id="box2">
-        <span><img src="images\icon-check.svg" alt=""> Unlimited websites</span>
-         <span><img src="images\icon-check.svg" alt=""> 100% data ownership</span>
-          <span><img src="images\icon-check.svg" alt=""> Email reports</span>
-        
+        <span
+          ><img src="images\icon-check.svg" alt="" /> Unlimited websites</span
+        >
+        <span
+          ><img src="images\icon-check.svg" alt="" /> 100% data ownership</span
+        >
+        <span><img src="images\icon-check.svg" alt="" /> Email reports</span>
+
         <buttton id="starttrial">Start my trial</buttton>
       </div>
     </div>

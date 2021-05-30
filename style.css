@@ -17,25 +17,110 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
+  background-color: var(--VeryPaleBlue);
 }
 
-div.container p {
-  color: var(--GrayishBlue);
+div.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
 }
+
+div.container img#bgcircle {
+  position: absolute;
+  top: 50px;
+}
+
+div.container h2 {
+  font-size: 19px;
+  margin-top: 80px;
+  color: var(--DarkDesaturatedBlue);
+}
+
+div.p {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 80px;
+}
+
+div.p p {
+  color: var(--GrayishBlue);
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0 auto 0 auto;
+}
+
+div#box1 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid whitesmoke;
+  width: 70%;
+  padding: 25px;
+  margin: auto;
+  align-items: center;
+}
+
+div#box1 span#pageviews {
+  color: var(--GrayishBlue);
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+div#box1 div.sliderbg {
+  background-color: var(--StrongCyan);
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.rate h1 {
+    display: inline;
+    color: var(--DarkDesaturatedBlue);
+}
+
+div.rate span  {
+    color: var(--GrayishBlue);
+}
+ div.tenure span {
+     color: var(--GrayishBlue);
+     font-size: 12px;
+ }
+
+ div.tenure button#discountbtn  {
+     border: none;
+     background-color:var(--LightGrayishRed);
+     color: var(--LightRed);
+     font-size: 10px;
+     border-radius: 35px;
+     padding: 5px;
+ }
+
+  span#discount-btn-span{
+   color: var(--LightRed);
+   display: none;
+ }
 
 div#box2 {
+  background-color: white;
   display: flex;
   flex-direction: column;
   border: 2px solid whitesmoke;
   width: 70%;
   margin: auto;
+  align-items: center;
   padding: 25px;
 }
 
 div#box2 span {
   color: var(--GrayishBlue);
   font-size: 13px;
-  margin: auto;
   line-height: 30px;
 }
 
@@ -52,8 +137,8 @@ div#box2 #starttrial {
 }
 
 div#box2 #starttrial:hover {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 
 .attribution {
@@ -61,7 +146,7 @@ div#box2 #starttrial:hover {
   text-align: center;
   position: fixed;
   bottom: 0;
-  left:0;
+  left: 0;
   right: 0;
   margin: auto;
 }
