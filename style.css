@@ -11,3 +11,6 @@
 --GrayishBlue: hsl(225, 20%, 60%);
 --DarkDesaturatedBlue: hsl(227, 35%, 25%);
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
