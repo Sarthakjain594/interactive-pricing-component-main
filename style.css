@@ -117,21 +117,12 @@ div.slider-components #range-slider {
   /* background-color: white; */
 }
 
-/* div#box1 div.sliderbg {
-  background-color: var(--StrongCyan);
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 div.rate {
   margin: 10px auto 25px auto;
 }
 
-div.rate h1 {
+div.rate h1 ,  span#change-rate {
   display: inline;
   color: var(--DarkDesaturatedBlue);
 }
