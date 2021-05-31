@@ -23,6 +23,7 @@ body {
 
 div.bg-pattern {
   z-index: 0;
+  overflow-x:hidden;
 }
 
 div.container {
