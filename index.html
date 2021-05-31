@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="bg-pattern">
+      <img src="images\bg-pattern.svg" alt="" />
+    </div>
     <div class="container">
       <img src="images\pattern-circles.svg" alt="" id="bgcircle" />
       <h2 class="mainhead">Simple, traffic-based pricing</h2>
@@ -31,18 +34,29 @@
       </div>
       <div id="box1">
         <span id="pageviews">100k Pageviews</span>
-       <div class="sliderbg">
-        <img src="images\icon-slider.svg" alt="" id="slidericon" />
-       </div>
+        <div class="slider-components">
+          <input type="range" id="range-slider"  min="0" max="100" value="50"/>
+          <!-- <div class="sliderbg">
+            <img src="images\icon-slider.svg" alt="" id="slidericon" />
+          </div> -->
+        </div>
         <div class="rate">
-          <h1>$</h1>
+          <h1>$16.00</h1>
           <span class="month">/month</span>
         </div>
-       <div class="tenure">
-       <span> Monthly Billing</span>  
-       <span>Yearly Billing</span> 
-       <button id="discountbtn">25% <span id="discount-btn-span">discount</span></button>
-       </div>
+        <div class="tenure">
+          <span> Monthly Billing</span>
+          <span class="togglebtn">
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider round"></span>
+            </label>
+          </span>
+          <span>Yearly Billing</span>
+          <button id="discountbtn">
+            25% <span id="discount-btn-span">discount</span>
+          </button>
+        </div>
       </div>
       <div id="box2">
         <span
