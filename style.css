@@ -94,7 +94,7 @@ div.slider-components #range-slider {
   appearance: none;
   background-color: var(--SoftCyan);
   height: 10px;
-  width: 350px;
+  width: 310px;
   -webkit-appearance: none;
   border-radius: 4px;
 }
