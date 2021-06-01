@@ -1,16 +1,19 @@
 # Frontend Mentor - Interactive pricing component solution
 
-This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Interactive pricing component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
-- [The challenge](#the-challenge)
-- [Screenshot](#screenshot)
-- [Links](#links)
+
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
+
+
 
 ### The challenge
 
@@ -21,9 +24,9 @@ Users should be able to:
 - Use the slider and toggle to see prices for different page view numbers
 
 ### Screenshot
-
-![](screenshots\screenshot-desktop-design.png)
-1[](screenshots\screenshot-mobile-design.png)
+ 
+ ![](screenshots\screenshot-desktop-design.png)
+ 1[](screenshots\screenshot-mobile-design.png)
 
 ### Links
 
@@ -33,9 +36,9 @@ Users should be able to:
 
 ## My process :
 
-- First I built the mobile first design , with all the css styling .
+- First I built the mobile first design , with all the css styling . 
 - Then , I moved onto the desktop style using media query in css .
-- And finally I added the functionality using javascript .
+- And finally I added the functionality using javascript . 
 
 ### Built with
 
@@ -47,10 +50,11 @@ Users should be able to:
 
 ### What I learned
 
-Through this project I got to learn about range sliders and toggle switch button becasuse I didn't aware of them earlier .
+Through this project I got to learn about range sliders and toggle switch button becasuse I didn't aware of them earlier .  
 
 ## Author
 
 - Website - [Sarthak Jain]
 - Frontend Mentor - [@Sarthakjain594](https://www.frontendmentor.io/profile/Sarthakjain594)
 - Twitter - [@SarthakjJain](https://twitter.com/SarthakjJain)
+
